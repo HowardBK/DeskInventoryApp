@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: DeskInventoryApp
+  datasource:
+    url: jdbc:postgresql://localhost:5432/DeskInventoryDb
+    username: bobby
+    password: bobby123
+  jpa:
+      hibernate:
+        ddl-auto: validate
+  flyway:
+    enabled: true
